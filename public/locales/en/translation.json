@@ -1,0 +1,42 @@
+{
+  "header": {
+    "home": "Home Page",
+    "about": "About",
+    "teachers": "Instructors",
+    "courses": "Courses",
+    "contact": "Contact Us"
+  },
+  "aboutPage": {
+    "aboutTitle": "About Us"
+  },
+  "contactPage": {
+    "contactTitle": "Contact Us",
+    "contactFormName": "Name",
+    "contactFormSurname": "Surname",
+    "contactFormEmail": "Email",
+    "contactFormTitle": "Title",
+    "contactFormMessage": "Message",
+    "contactFormButton": "Send"
+  },
+  "chooseUs": {
+    "title": "Why Choose Us?",
+    "highQuality": "High-Quality Training",
+    "highQualityContent": "At Codev Training Center, we prioritize delivering the best education through well-structured programs, industry-standard materials, and practical teaching methodologies. Our goal is to ensure students not only gain theoretical knowledge but also practical skills to excel in their careers.",
+    "team": "Professional Team",
+    "teamContent": "Our instructors are certified experts with extensive hands-on experience in their respective fields. They bring real-world knowledge into the classroom, ensuring students learn from the best and gain insights into current industry practices.",
+    "approach": "Practical and Career-Focused Approach",
+    "approachContent": "Every course is designed to meet current industry demands, with a focus on practical application and real-world problem-solving. This ensures that our graduates are job-ready and equipped to handle the challenges of a professional IT environment."
+  },
+  "courses": {
+    "title": "Our Courses",
+    "design": "Graphic Design"
+  },
+  "success": {
+    "title": "Our Success"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Oops! The page you are looking for does not exist. It might have been moved or delete",
+    "btn": "Back To Home"
+  }
+}

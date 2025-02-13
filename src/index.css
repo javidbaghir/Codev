@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white;
+}
+
+body {
+  @apply px-4;
+}
+
+@media (min-width: 640px) {
+  body {
+    @apply px-6;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    @apply px-8;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    @apply px-10;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    @apply px-12;
+  }
+}
+
+@media (min-width: 1536px) {
+  body {
+    @apply px-16;
+  }
+}

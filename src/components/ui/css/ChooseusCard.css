@@ -1,0 +1,15 @@
+.chooseus-card-container {
+  @apply flex flex-col space-y-[15px] items-center text-left sm:items-center  md:items-center;
+}
+
+.icon {
+  @apply mb-[10px];
+}
+
+.title {
+  @apply text-[20px] font-semibold;
+}
+
+.text {
+  @apply text-[16px];
+}

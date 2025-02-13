@@ -1,0 +1,15 @@
+.text-course {
+  @apply flex items-center justify-center text-center mt-[35px];
+}
+
+.text-body {
+  @apply w-[720px] text-[18px];
+}
+
+/* .card-container {
+  @apply grid grid-cols-2 gap-5 md:grid-cols-2 md:justify-between md:items-center mt-[70px];
+} */
+
+.card-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-[70px];
+}

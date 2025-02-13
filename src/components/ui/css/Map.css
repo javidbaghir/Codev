@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    iframe {
+      width: 100% !important;
+      height: 300px !important; /* Mobil versiya üçün hündürlük */
+    }
+  }

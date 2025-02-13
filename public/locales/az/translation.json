@@ -1,0 +1,42 @@
+{
+  "header": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "teachers": "Müəllimlərimiz",
+    "courses": "Kurslarımız",
+    "contact": "Bizimlə Əlaqə"
+  },
+  "aboutPage": {
+    "aboutTitle": "Haqqımızda"
+  },
+  "contactPage": {
+    "contactTitle": "Bizimlə Əlaqə",
+    "contactFormName": "Ad",
+    "contactFormSurname": "Soyad",
+    "contactFormEmail": "E-Poçt",
+    "contactFormTitle": "Başlıq",
+    "contactFormMessage": "Mesajınız",
+    "contactFormButton": "Göndər"
+  },
+  "chooseUs": {
+    "title": "Niyə bizi seçməlisiniz?",
+    "highQuality": "Yüksək Keyfiyyətli Təlim",
+    "highQualityContent": "Codev Tədris Mərkəzində biz yaxşı qurulmuş proqramlar, sənaye standartı materialları və praktiki tədris metodologiyaları vasitəsilə ən yaxşı təhsili təqdim etməyə üstünlük veririk. Məqsədimiz tələbələrin təkcə nəzəri biliklər əldə etmələrini deyil, həm də karyeralarında üstün olmalarını təmin etməkdir.",
+    "team": "Peşəkar Komanda",
+    "teamContent": "Təlimatçılarımız öz sahələrində geniş praktiki təcrübəyə malik sertifikatlı ekspertlərdir. Onlar real dünya biliklərini sinifə gətirir, tələbələrin ən yaxşılarından öyrənməsini və cari sənaye təcrübələri haqqında fikirlər əldə etməsini təmin edir.",
+    "approach": "Praktik və Karyera Yönümlü Yanaşma",
+    "approachContent": "Hər bir kurs praktiki tətbiqə və real dünyada problemlərin həllinə diqqət yetirməklə, cari sənaye tələblərinə cavab vermək üçün nəzərdə tutulmuşdur. Bu, məzunlarımızın işə hazır olmasını və peşəkar İT mühitinin çətinliklərinin öhdəsindən gəlmək üçün təchiz olunmasını təmin edir."
+  },
+  "courses": {
+    "title": "Kurslarımız",
+    "design": "Qrafik Dizayn"
+  },
+    "success": {
+      "title": "Uğurlarımız"
+    },
+    "notFound": {
+      "title": "Səhifə tapılmadı!",
+      "message": "Axtardığınız səhifə mövcud deyil.",
+      "btn": "Ana Səhifəyə qayıt"
+    }
+}

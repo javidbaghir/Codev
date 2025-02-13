@@ -1,0 +1,108 @@
+/* .hero-container {
+  @apply relative grid grid-cols-12 justify-center items-center py-[70px] overflow-visible z-10 before:block before:absolute before:-left-[260px] before:-top-[160px] before:size-[290px] before:rounded-full before:bg-gray-400 before:content-[""] before:z-0 after:absolute after:-right-[200px] after:-bottom-[100px] after:size-[290px] after:rounded-full after:bg-green-500 after:z-[-10];
+}
+
+.hero-container::after {
+  @apply absolute      content-[""] ;
+} */
+
+/* Pagination nöqtələri - ağ rəng */
+/* .swiper-pagination-bullet {
+  background-color: rgba(227, 4, 4, 0.5);
+  transition: opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(74, 4, 4, 0.5);
+  opacity: 1;
+} 
+  */
+/*
+.swiper-button-prev,
+.swiper-button-next {
+  @apply absolute top-1/2 transform -translate-y-1/2 z-10 bg-black/50 text-white p-3 w-12 h-12 rounded-full hover:bg-black/70 transition right-[10px] left-[10px];
+ }
+.hero-container {
+  @apply grid md:grid-cols-12 justify-center items-center py-[70px] gap-y-10;
+}
+
+.hero-left-side {
+  @apply col-span-12 sm:col-span-7 space-y-[27px] text-center sm:text-left;
+}
+
+.hero-right-side {
+  @apply col-span-12 sm:col-span-5 flex justify-center;
+}
+
+.hero-text {
+  @apply text-[18px] leading-[28px] w-full sm:w-[600px];
+}
+
+h1 {
+  @apply w-full sm:w-[685px] md:w-[500px] text-[32px] sm:text-[72px] md:text-[46px] font-bold leading-[40px] sm:leading-[90px] md:leading-[50px];
+}
+
+.heroFigure {
+  @apply size-[200px] sm:size-[400px] rounded-[24px] overflow-hidden;
+}
+
+img {
+  @apply size-full object-cover;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    @apply w-full text-[32px] font-bold leading-[40px];
+  }
+
+  .hero-text {
+    @apply text-[18px] leading-[28px] w-full;
+  }
+}
+
+@media (max-width: 1085px) {
+  .heroFigure {
+    @apply hidden;
+  }
+} */
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute !important;
+  top: 50% !important;
+  z-index: 10 !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: white !important;
+  padding: 12px !important;
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 50% !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.swiper-button-prev {
+  left: 10px !important;
+}
+
+.swiper-button-next {
+  right: 10px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: none !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+  opacity: 1 !important; 
+}
