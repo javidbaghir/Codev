@@ -1,15 +1,260 @@
-.text-course {
-  @apply flex items-center justify-center text-center mt-[35px];
+/* ============================================
+   COURSES SECTION - PREMIUM TEMPLATE
+   ============================================ */
+
+/* Main Section Wrapper */
+.courses-section {
+  position: relative;
+  width: 100%;
+  padding: 100px 0;
+  background: white;
+  overflow: hidden;
 }
 
-.text-body {
-  @apply w-[720px] text-[18px];
+.courses-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(43, 184, 11, 0.03) 0%, transparent 100%);
+  pointer-events: none;
 }
 
-/* .card-container {
-  @apply grid grid-cols-2 gap-5 md:grid-cols-2 md:justify-between md:items-center mt-[70px];
-} */
+/* Section Header */
+.courses-header {
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+  animation: fadeInUp 0.8s ease-out;
+}
 
-.card-container {
-  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-[70px];
+.courses-badge {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(135deg, #2bb80b 0%, #23a309 100%);
+  color: white;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 20px rgba(43, 184, 11, 0.3);
+}
+
+.courses-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: #171717;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Courses Grid */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Course Card */
+.course-item {
+  position: relative;
+  background: white;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 0.8s ease-out;
+  cursor: pointer;
+}
+
+.course-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.course-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.course-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.course-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.course-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(43, 184, 11, 0.2);
+  border-color: rgba(43, 184, 11, 0.2);
+}
+
+/* Course Image */
+.course-image {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.course-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent 0%, rgba(43, 184, 11, 0.8) 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.course-item:hover .course-overlay {
+  opacity: 1;
+}
+
+/* Course Content */
+.course-content {
+  padding: 1.75rem;
+  position: relative;
+}
+
+.course-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #171717;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+  transition: color 0.3s ease;
+}
+
+.course-item:hover .course-name {
+  color: #2bb80b;
+}
+
+.course-desc {
+  font-size: 0.95rem;
+  color: #606062;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+/* Course Meta */
+.course-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.course-duration {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #606062;
+  font-weight: 600;
+}
+
+.course-duration svg {
+  color: #2bb80b;
+  flex-shrink: 0;
+}
+
+.course-icon {
+  color: #2bb80b;
+  transition: transform 0.3s ease;
+}
+
+.course-item:hover .course-icon {
+  transform: scale(1.15) rotate(10deg);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .courses-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .course-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-section {
+    padding: 70px 0;
+  }
+
+  .courses-header {
+    margin-bottom: 40px;
+  }
+
+  .courses-title {
+    font-size: 2.25rem;
+  }
+
+  .course-content {
+    padding: 1.5rem;
+  }
+
+  .course-name {
+    font-size: 1.35rem;
+  }
+
+  .course-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 640px) {
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .courses-title {
+    font-size: 1.875rem;
+  }
+
+  .course-item {
+    border-radius: 1.25rem;
+  }
+
+  .course-image {
+    height: 200px;
+  }
+
+  .course-content {
+    padding: 1.25rem;
+  }
 }

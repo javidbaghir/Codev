@@ -4,7 +4,22 @@
     "about": "About",
     "teachers": "Instructors",
     "courses": "Courses",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Premium IT Education",
+    "mainTitle": "Transform Your Future with",
+    "subtitle": "Learn cutting-edge IT skills from industry experts. Get certified, get hired, get ahead.",
+    "students": "Students",
+    "courses": "Courses",
+    "success": "Success Rate",
+    "startNow": "Start Learning Now",
+    "exploreCourses": "Explore Courses",
+    "certified": "Industry Certified",
+    "experts": "Expert Instructors",
+    "support": "24/7 Support",
+    "scrollDown": "Scroll to explore"
   },
   "aboutPage": {
     "aboutTitle": "About Us"
@@ -19,7 +34,8 @@
     "contactFormButton": "Send"
   },
   "chooseUs": {
-    "title": "Why Choose Us?",
+    "badge": "Why Choose Us",
+    "title": "What Makes Us Different",
     "highQuality": "High-Quality Training",
     "highQualityContent": "At Codev Training Center, we prioritize delivering the best education through well-structured programs, industry-standard materials, and practical teaching methodologies. Our goal is to ensure students not only gain theoretical knowledge but also practical skills to excel in their careers.",
     "team": "Professional Team",
@@ -28,11 +44,41 @@
     "approachContent": "Every course is designed to meet current industry demands, with a focus on practical application and real-world problem-solving. This ensures that our graduates are job-ready and equipped to handle the challenges of a professional IT environment."
   },
   "courses": {
-    "title": "Our Courses",
-    "design": "Graphic Design"
+    "badge": "Courses",
+    "title": "Explore Our Courses",
+    "design": "Graphic Design",
+    "javaDesc": "Master Java programming from basics to advanced concepts. Build real-world applications and become job-ready.",
+    "ciscoDesc": "Learn network engineering with Cisco technologies. Prepare for CCNA certification and industry success.",
+    "helpdeskDesc": "Develop essential IT support skills. Learn troubleshooting, customer service, and technical problem-solving.",
+    "designDesc": "Master UI/UX design principles. Create stunning user interfaces and exceptional user experiences.",
+    "javaDuration": "6",
+    "ciscoDuration": "4",
+    "helpdeskDuration": "3",
+    "designDuration": "5",
+    "months": "months"
+  },
+  "teachers": {
+    "badge": "Expert Instructors",
+    "subtitle": "Learn from industry professionals with years of real-world experience",
+    "linkedinProfile": "LinkedIn Profile"
   },
   "success": {
-    "title": "Our Success"
+    "badge": "Student Success",
+    "title": "Our Success Stories",
+    "subtitle": "Certified professionals who started their journey with us",
+    "certified": "Certified Students",
+    "passRate": "Pass Rate",
+    "jobReady": "Job Ready"
+  },
+  "footer": {
+    "description": "Empowering the next generation of IT professionals with industry-leading training and certification programs.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address"
   },
   "notFound": {
     "title": "Page Not Found",

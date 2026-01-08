@@ -1,15 +1,56 @@
-.chooseus-card-container {
-  @apply flex flex-col space-y-[15px] items-center text-left sm:items-center  md:items-center;
+/* Premium Choose Us Card - 2026 Design */
+.premium-choose-card {
+  @apply relative flex flex-col items-center text-center p-8 lg:p-10 rounded-3xl;
+  @apply bg-white border border-secondary-100/50 shadow-card;
+  @apply hover:shadow-card-hover transition-all duration-500;
+  @apply animate-fade-in-up;
 }
 
-.icon {
-  @apply mb-[10px];
+.premium-choose-card:hover {
+  transform: translateY(-12px) scale(1.02);
 }
 
-.title {
-  @apply text-[20px] font-semibold;
+/* Icon Wrapper with Premium Effect */
+.premium-icon-wrapper {
+  @apply relative mb-6 transition-all duration-500;
 }
 
-.text {
-  @apply text-[16px];
+.premium-icon-bg {
+  @apply flex items-center justify-center w-20 h-20 lg:w-24 lg:h-24;
+  @apply bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl;
+  @apply shadow-premium transition-all duration-500;
+}
+
+/* Card Content */
+.premium-card-content {
+  @apply space-y-4;
+}
+
+.premium-card-title {
+  @apply text-xl lg:text-2xl font-bold text-secondary-900;
+  @apply tracking-tight transition-colors duration-300;
+}
+
+.premium-card-description {
+  @apply text-base lg:text-lg text-secondary-600 leading-relaxed;
+  @apply max-w-sm mx-auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .premium-choose-card {
+    @apply p-6;
+  }
+
+  .premium-icon-bg {
+    @apply w-16 h-16;
+  }
+
+  .premium-card-title {
+    @apply text-lg;
+  }
+
+  .premium-card-description {
+    @apply text-sm;
+  }
 }

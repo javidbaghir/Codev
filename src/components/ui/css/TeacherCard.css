@@ -1,0 +1,18 @@
+/* Premium Teacher Card - 2026 Design */
+.premium-teacher-card {
+  @apply relative flex flex-col items-center p-8 lg:p-10 rounded-3xl;
+  @apply bg-white border border-secondary-100/50 shadow-card;
+  @apply hover:shadow-card-hover transition-all duration-500;
+  @apply cursor-pointer;
+}
+
+.premium-teacher-card:hover {
+  transform: translateY(-12px) scale(1.02);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .premium-teacher-card {
+    @apply p-6 rounded-2xl;
+  }
+}

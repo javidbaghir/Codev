@@ -1,15 +1,63 @@
-.category-img {
-  @apply size-full p-[10px] md:p-[30px];
+/* Premium Course Category Card - 2026 Design */
+.premium-course-card {
+  @apply relative flex flex-col bg-white rounded-3xl overflow-hidden shadow-card;
+  @apply hover:shadow-card-hover transition-all duration-500;
+  @apply cursor-pointer;
 }
 
-.category-figure {
-  @apply size-[150px] md:size-[220px] rounded-[16px];
+.premium-course-card:hover {
+  transform: translateY(-16px) scale(1.03);
 }
 
-.category-title {
-  @apply text-[18px] font-bold px-1 md:px-2;
+/* Image Container */
+.premium-course-image-wrapper {
+  @apply relative overflow-hidden;
 }
 
-.category-container {
-  @apply flex flex-col items-center justify-center space-y-[10px] md:space-y-[20px] p-4 md:p-6 border rounded-xl bg-white shadow-md hover:shadow-lg transition-shadow;
+.premium-course-image {
+  @apply relative w-full h-48 lg:h-56 overflow-hidden;
+}
+
+/* Content Section */
+.premium-course-content {
+  @apply relative p-6 lg:p-7 space-y-3;
+}
+
+.premium-course-title {
+  @apply text-xl lg:text-2xl font-bold text-secondary-900 tracking-tight;
+  @apply transition-colors duration-300;
+}
+
+.premium-course-description {
+  @apply text-sm lg:text-base text-secondary-600 leading-relaxed line-clamp-2;
+}
+
+/* Call to Action Button - Global */
+.premium-cta-btn {
+  @apply relative px-8 py-4 text-white rounded-2xl overflow-hidden;
+  @apply transition-all duration-300 hover:scale-105;
+  @apply shadow-premium hover:shadow-premium-lg;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  .premium-course-card {
+    @apply rounded-2xl;
+  }
+
+  .premium-course-image {
+    @apply h-40;
+  }
+
+  .premium-course-content {
+    @apply p-5;
+  }
+
+  .premium-course-title {
+    @apply text-lg;
+  }
+
+  .premium-course-description {
+    @apply text-xs;
+  }
 }

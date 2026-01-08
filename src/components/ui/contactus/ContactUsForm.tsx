@@ -51,83 +51,94 @@ const ContactUsForm: React.FC = () => {
     });
 
     return (
-        <div className="relative z-10">
+        <div className="relative z-10 bg-white p-8 md:p-10 rounded-2xl shadow-xl border-2 border-gray-100">
             <form
                 ref={formRef}
                 onSubmit={formik.handleSubmit}
                 autoComplete="off"
-                className="space-y-5"
+                className="space-y-6"
             >
-                <div className="grid grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <div>
-                        <label> {t("contactPage.contactFormName")}</label>
+                        <label className="block text-secondary-700 font-semibold mb-2">{t("contactPage.contactFormName")}</label>
                         <Input
                             name="name"
                             value={formik.values.name}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
+                            className="rounded-lg border-2 border-gray-200 focus:border-primary hover:border-primary-300"
+                            size="large"
                         />
                         {formik.touched.name && formik.errors.name && (
-                            <div className="text-red-500 text-sm">{formik.errors.name}</div>
+                            <div className="text-red-500 text-sm mt-1">{formik.errors.name}</div>
                         )}
                     </div>
                     <div>
-                        <label>{t("contactPage.contactFormSurname")}</label>
+                        <label className="block text-secondary-700 font-semibold mb-2">{t("contactPage.contactFormSurname")}</label>
                         <Input
                             name="surname"
                             value={formik.values.surname}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
+                            className="rounded-lg border-2 border-gray-200 focus:border-primary hover:border-primary-300"
+                            size="large"
                         />
                         {formik.touched.surname && formik.errors.surname && (
-                            <div className="text-red-500 text-sm">{formik.errors.surname}</div>
+                            <div className="text-red-500 text-sm mt-1">{formik.errors.surname}</div>
                         )}
                     </div>
                 </div>
                 <div className="flex flex-col space-y-5">
                     <div>
-                        <label>{t("contactPage.contactFormEmail")}</label>
+                        <label className="block text-secondary-700 font-semibold mb-2">{t("contactPage.contactFormEmail")}</label>
                         <Input
                             name="email"
                             type="email"
                             value={formik.values.email}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
+                            className="rounded-lg border-2 border-gray-200 focus:border-primary hover:border-primary-300"
+                            size="large"
                         />
                         {formik.touched.email && formik.errors.email && (
-                            <div className="text-red-500 text-sm">{formik.errors.email}</div>
+                            <div className="text-red-500 text-sm mt-1">{formik.errors.email}</div>
                         )}
                     </div>
                     <div>
-                        <label>{t("contactPage.contactFormTitle")}</label>
+                        <label className="block text-secondary-700 font-semibold mb-2">{t("contactPage.contactFormTitle")}</label>
                         <Input
                             name="title"
                             value={formik.values.title}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
+                            className="rounded-lg border-2 border-gray-200 focus:border-primary hover:border-primary-300"
+                            size="large"
                         />
                         {formik.touched.title && formik.errors.title && (
-                            <div className="text-red-500 text-sm">{formik.errors.title}</div>
+                            <div className="text-red-500 text-sm mt-1">{formik.errors.title}</div>
                         )}
                     </div>
                     <div>
-                        <label>{t("contactPage.contactFormMessage")}</label>
+                        <label className="block text-secondary-700 font-semibold mb-2">{t("contactPage.contactFormMessage")}</label>
                         <Input.TextArea
                             name="message"
                             rows={4}
                             value={formik.values.message}
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
+                            className="rounded-lg border-2 border-gray-200 focus:border-primary hover:border-primary-300"
                         />
                         {formik.touched.message && formik.errors.message && (
-                            <div className="text-red-500 text-sm">{formik.errors.message}</div>
+                            <div className="text-red-500 text-sm mt-1">{formik.errors.message}</div>
                         )}
                     </div>
                 </div>
                 <Button
                     type="primary"
                     htmlType="submit"
-                    style={{ backgroundColor: "#22c55e", color: "#FFFFFF" }}
+                    size="large"
+                    className="w-full md:w-auto"
+                    style={{ backgroundColor: "#2bb80b", color: "#FFFFFF", borderRadius: "0.75rem", fontWeight: "600", padding: "0.75rem 2rem", height: "auto" }}
                 >
                     {t("contactPage.contactFormButton")}
                 </Button>

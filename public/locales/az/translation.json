@@ -4,7 +4,22 @@
     "about": "Haqqımızda",
     "teachers": "Müəllimlərimiz",
     "courses": "Kurslarımız",
-    "contact": "Bizimlə Əlaqə"
+    "contact": "Bizimlə Əlaqə",
+    "language": "Dil"
+  },
+  "hero": {
+    "badge": "Premium İT Təhsili",
+    "mainTitle": "Gələcəyinizi Bizimlə Dəyişdirin",
+    "subtitle": "Sənaye ekspertlərindən müasir İT bacarıqları öyrənin. Sertifikat alın, işə düzəlin, irəli gedin.",
+    "students": "Tələbə",
+    "courses": "Kurs",
+    "success": "Uğur Nisbəti",
+    "startNow": "İndi Öyrənməyə Başla",
+    "exploreCourses": "Kursları Kəşf Et",
+    "certified": "Sənaye Sertifikatlı",
+    "experts": "Ekspert Təlimatçılar",
+    "support": "24/7 Dəstək",
+    "scrollDown": "Kəşf etmək üçün sürüşdürün"
   },
   "aboutPage": {
     "aboutTitle": "Haqqımızda"
@@ -19,7 +34,8 @@
     "contactFormButton": "Göndər"
   },
   "chooseUs": {
-    "title": "Niyə bizi seçməlisiniz?",
+    "badge": "Niyə Bizi Seçməlisiniz",
+    "title": "Bizi Fərqləndirən Nədir",
     "highQuality": "Yüksək Keyfiyyətli Təlim",
     "highQualityContent": "Codev Tədris Mərkəzində biz yaxşı qurulmuş proqramlar, sənaye standartı materialları və praktiki tədris metodologiyaları vasitəsilə ən yaxşı təhsili təqdim etməyə üstünlük veririk. Məqsədimiz tələbələrin təkcə nəzəri biliklər əldə etmələrini deyil, həm də karyeralarında üstün olmalarını təmin etməkdir.",
     "team": "Peşəkar Komanda",
@@ -28,15 +44,45 @@
     "approachContent": "Hər bir kurs praktiki tətbiqə və real dünyada problemlərin həllinə diqqət yetirməklə, cari sənaye tələblərinə cavab vermək üçün nəzərdə tutulmuşdur. Bu, məzunlarımızın işə hazır olmasını və peşəkar İT mühitinin çətinliklərinin öhdəsindən gəlmək üçün təchiz olunmasını təmin edir."
   },
   "courses": {
-    "title": "Kurslarımız",
-    "design": "Qrafik Dizayn"
+    "badge": "Kurslar",
+    "title": "Kurslarımızı Kəşf Edin",
+    "design": "Qrafik Dizayn",
+    "javaDesc": "Əsaslardan qabaqcıl konsepsiyalara qədər Java proqramlaşdırmasında usta olun. Real dünya tətbiqləri yaradın və işə hazır olun.",
+    "ciscoDesc": "Cisco texnologiyaları ilə şəbəkə mühəndisliyini öyrənin. CCNA sertifikatına hazırlaşın və sənayedə uğur qazanın.",
+    "helpdeskDesc": "Əsas İT dəstək bacarıqlarını inkişaf etdirin. Problemlərin həlli, müştəri xidməti və texniki problemlərin həllini öyrənin.",
+    "designDesc": "UI/UX dizayn prinsiplərində usta olun. Heyrətamiz istifadəçi interfeysi və mükəmməl istifadəçi təcrübəsi yaradın.",
+    "javaDuration": "6",
+    "ciscoDuration": "4",
+    "helpdeskDuration": "3",
+    "designDuration": "5",
+    "months": "ay"
   },
-    "success": {
-      "title": "Uğurlarımız"
-    },
-    "notFound": {
-      "title": "Səhifə tapılmadı!",
-      "message": "Axtardığınız səhifə mövcud deyil.",
-      "btn": "Ana Səhifəyə qayıt"
-    }
+  "teachers": {
+    "badge": "Ekspert Təlimatçılar",
+    "subtitle": "İllər boyu real təcrübəyə malik sənaye peşəkarlarından öyrənin",
+    "linkedinProfile": "LinkedIn Profili"
+  },
+  "success": {
+    "badge": "Tələbə Uğurları",
+    "title": "Uğur Hekayələrimiz",
+    "subtitle": "Səyahətlərinə bizimlə başlayan sertifikatlı peşəkarlar",
+    "certified": "Sertifikatlı Tələbələr",
+    "passRate": "Keçid Nisbəti",
+    "jobReady": "İşə Hazır"
+  },
+  "footer": {
+    "description": "Sənayedə lider təlim və sertifikat proqramları ilə gələcəyin İT peşəkarlarını gücləndirir.",
+    "quickLinks": "Sürətli Keçidlər",
+    "contactInfo": "Əlaqə Məlumatı",
+    "followUs": "Bizi İzləyin",
+    "rights": "Bütün hüquqlar qorunur.",
+    "phone": "Telefon",
+    "email": "E-Poçt",
+    "address": "Ünvan"
+  },
+  "notFound": {
+    "title": "Səhifə tapılmadı!",
+    "message": "Axtardığınız səhifə mövcud deyil.",
+    "btn": "Ana Səhifəyə qayıt"
+  }
 }
