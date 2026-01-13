@@ -7,22 +7,25 @@ import "../pages/css/HomeCss.css";
 
 const Home = () => {
     return (
-        <div className="home-container">
-            {/* Hero Section - Premium Course Platform Design */}
+        <>
+            {/* Hero Section - Full Width */}
             <Hero />
 
-            {/* Why Choose Us - Benefits Section */}
-            <ChooseUs />
+            {/* Other Sections */}
+            <div className="home-container">
+                {/* Why Choose Us - Benefits Section */}
+                <ChooseUs />
 
-            {/* Course Categories - Main Courses */}
-            <CourseCategory />
+                {/* Course Categories - Main Courses */}
+                <CourseCategory />
 
-            {/* Expert Instructors */}
-            <TeacherSection />
+                {/* Expert Instructors */}
+                <TeacherSection />
 
-            {/* Student Success Stories - Certifications */}
-            <OurSuccess />
-        </div>
+                {/* Student Success Stories - Certifications */}
+                <OurSuccess />
+            </div>
+        </>
     );
 };
 

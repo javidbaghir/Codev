@@ -7,7 +7,7 @@ const MainLayout = () => {
 
   return (
     <>
-      <div className="container mx-auto flex flex-col min-h-screen" id="mainPage">
+      <div className="flex flex-col min-h-screen" id="mainPage">
         <Header />
         <ScrollToTop />
         <Outlet />
